@@ -3,10 +3,11 @@ import Link from '../Link/Link';
 
 const Navbar = () => {
     const routes = [
-        { id: 1, link: '/', name: 'Home' },
-        { id: 2, link: '/review', name: 'Review' },
-        { id: 3, link: '/blog', name: 'Blog' },
-        { id: 4, link: '/about', name: 'About' },
+        { id: 1, link: '/', name: 'HOME' },
+        { id: 2, link: '/review', name: 'REVIEWS' },
+        { id: 3, link: '/dashboard', name: 'DASHBOARD' },
+        { id: 4, link: '/blog', name: 'BLOGS' },
+        { id: 5, link: '/about', name: 'ABOUT' },
     ];
     return (
         <ul className='my-12 md:flex lg:flex justify-center' >
