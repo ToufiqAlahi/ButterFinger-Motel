@@ -51,7 +51,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className=' md:flex md:mx-10 md:justify-between mt-44'>
+        <div className=' md:flex md:mx-10 md:justify-around mt-44'>
             
             
             <div>
