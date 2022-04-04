@@ -1,9 +1,8 @@
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes, } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import Reviews from './components/Reviews/Reviews';
 import Dashboard from './components/Dashboard/Dashboard';
 import Blogs from './components/Blogs/Blogs';
 import NotFound from './components/NotFound/NotFound';
