@@ -15,6 +15,7 @@ const ReviewCard = (props) => {
                 <p  className='text-2xl mt-10 '>{review_text}</p>
 
             </div>
+            
         </div>
 
 
