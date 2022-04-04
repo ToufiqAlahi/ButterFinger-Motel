@@ -6,13 +6,13 @@ const ReviewCard = (props) => {
     return (
 
         <div className=' my-6'>
-            <div className='border-4 p-5'>
-                <img className='w-24 h-24 rounded-full ml-40 ' src={user_img} alt="" />
+            <div className='border-4 rounded-2xl p-5 flex flex-col border-fuchsia-600 '>
+                <img className='w-36 h-36 rounded-full self-center mt-8' src={user_img} alt="" />
                 
-                <p className='font-bold'>{name}</p>
+                <p className='font-bold text-4xl mt-4 mb-12'>{name}</p>
 
-                <p className='font-bold'>{rating}.00</p>
-                <p>{review_text}</p>
+                <p className='font-bold text-4xl font-mono'>{rating}.00</p>
+                <p  className='text-2xl mt-10 '>{review_text}</p>
 
             </div>
         </div>

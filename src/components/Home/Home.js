@@ -19,6 +19,7 @@ const Home = () => {
                     <img className='md:h-5/6  md:ml-44' src="https://cdn.dribbble.com/users/1535237/screenshots/14325257/media/04a082db6cf639d2c1ea7fdb0a60a7ac.png?compress=1&resize=1200x900&vertical=top" alt="" />
                 </div>
             </div>
+            <p className='text-fuchsia-700 font-bold text-7xl my-16'>Customer Review</p>
             <Reviews> </Reviews>
         </div>
 

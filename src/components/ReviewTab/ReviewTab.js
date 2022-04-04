@@ -8,6 +8,7 @@ const ReviewTab = () => {
     return (
 
         <div className='md:grid md:grid-cols-3 md:gap-8 mx-6 '>
+        
         {
             reviews.map(review => <ReviewCard
                 key={review.id}

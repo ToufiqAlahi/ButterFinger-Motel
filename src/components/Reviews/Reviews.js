@@ -10,6 +10,7 @@ const Reviews = () => {
     return (
 
         <div className='md:grid md:grid-cols-3 md:gap-8 mx-6 '>
+        
         {
             reviews.slice(0,3).map(review => <ReviewCard
                 key={review.id}
