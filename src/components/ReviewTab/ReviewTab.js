@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ReviewCard from '../ReviewCard/ReviewCard';
 import UserReviews from './../../Hooks/UserReviews';
 
@@ -12,13 +13,15 @@ const ReviewTab = () => {
         {
             reviews.map(review => <ReviewCard
                 key={review.id}
-                review = {review}>
-                
-                </ReviewCard> )
+                review = {review}
+                ></ReviewCard> )
 
                 
         }
-
+        
+        <Link to="review" className='text-2xl font-bold P-4 text-fuchsia-900  hover:text-white hover:p-0 hover:bg-fuchsia-700'> See All </Link>
+        
+            
         </div>
     )
 };
