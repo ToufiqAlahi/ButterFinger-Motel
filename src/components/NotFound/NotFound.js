@@ -14,13 +14,13 @@ const NotFound = () => {
                             </div>
 
                             <div className="contant_box_404">
-                                <h3 className="h2">
+                                <h3 className="h2 text-5xl font-bold">
                                     Look like you're lost
                                 </h3>
 
-                                <p>the page you are looking for not avaible!</p>
+                                <p className="h2 text-5xl font-bold">The page you are looking for not available!</p>
 
-                                <a href="/home" className="link_404 text-bold">Go to Home</a>
+                                <a className="mt-10 text-2xl font-bold link_404 text-bold p-4 rounded-2xl" href="https://butterfinger-motel-by-toufiq.netlify.app/" >Go to Home</a>
                             </div>
                         </div>
                     </div>
