@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const Link = (props) => {
-    const {name, link} = props.route;
+const Links = (props) => {
+    const { name, link } = props.route;
     return (
         <li className='mr-10 text-2xl font-bold  hover:text-white hover:p-0 hover:bg-fuchsia-700'>
-            <a className='p-5 ' href={link}>{name}</a>
+            <Link className='p-5 ' to={link}> {name}</Link>
         </li>
+
     );
 };
 
-export default Link;
+export default Links;

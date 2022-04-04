@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '../Link/Link';
+import Links from '../Link/Link';
 
 const Navbar = () => {
     const routes = [
@@ -12,10 +12,10 @@ const Navbar = () => {
     return (
         <ul className='my-12 md:flex lg:flex justify-center ' >
         {
-            routes.map(route => <Link 
+            routes.map(route => <Links 
                 key={route.id}
                 route={route}
-                ></Link>
+                ></Links>
             )}
         </ul>
     );
