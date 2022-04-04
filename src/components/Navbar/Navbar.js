@@ -10,9 +10,9 @@ const Navbar = () => {
         { id: 5, link: '/about', name: 'ABOUT' },
     ];
     return (
-        <ul className='my-12 md:flex lg:flex justify-center' >
+        <ul className='my-12 md:flex lg:flex justify-center ' >
         {
-            routes.map(route => <Link
+            routes.map(route => <Link 
                 key={route.id}
                 route={route}
                 ></Link>
