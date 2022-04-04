@@ -23,8 +23,8 @@ const Home = () => {
             <p className='text-fuchsia-800 font-bold text-7xl my-16'>Customer Review</p>
             <Reviews> </Reviews>
             <Link to="review" className='text-2xl font-bold text-fuchsia-900  hover:text-white hover:p-0 hover:bg-fuchsia-700'> See All </Link>
-           
-            
+
+
         </div>
 
     );
