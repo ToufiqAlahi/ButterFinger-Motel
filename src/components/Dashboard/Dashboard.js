@@ -11,80 +11,86 @@ import {
     Area
 } from "recharts";
 
+
+import { BarChart, Bar, Cell, } from 'recharts';
+
+
+
+
 const Dashboard = () => {
     const data = [
         {
             "month": "Mar",
             "investment": 100000,
-            "sell": 241,
+            "sell": 24100,
             "revenue": 10401
         },
         {
             "month": "Apr",
             "investment": 200000,
-            "sell": 423,
+            "sell": 42300,
             "revenue": 24500
         },
         {
             "month": "May",
             "investment": 500000,
-            "sell": 726,
+            "sell": 72600,
             "revenue": 67010
         },
         {
             "month": "Jun",
             "investment": 500000,
-            "sell": 529,
+            "sell": 52900,
             "revenue": 40405
         },
         {
             "month": "Jul",
             "investment": 600000,
-            "sell": 601,
+            "sell": 60100,
             "revenue": 50900
         },
         {
             "month": "Aug",
             "investment": 700000,
-            "sell": 670,
+            "sell": 67000,
             "revenue": 61000
         }
     ]
     return (
-        <div className=' md:flex md:mx-10 md:justify-around mt-44'>
-            <div>
-            <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Simple Line Chart: <br />
-            <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
-            <LineChart
-                width={500}
-                height={300}
-                data={data}
-                margin={{
-                    top: 5,
-                    right: 30,
-                    left: 20,
-                    bottom: 5
-                }}
-            >
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Line
-                    type="monotone"
-                    dataKey="investment"
-                    stroke="#8884d8"
-                    activeDot={{ r: 8 }}
-                />
-                <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
-                <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
-            </LineChart>
+        <div className=' md:flex md:mx-10 md:justify-around mt-44 flex-wrap'>
+            <div className=' mb-44'>
+                <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Simple Line Chart: <br />
+                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
+                <LineChart
+                    width={750}
+                    height={450}
+                    data={data}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Line
+                        type="monotone"
+                        dataKey="investment"
+                        stroke="#8884d8"
+                        activeDot={{ r: 8 }}
+                    />
+                    <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+                    <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
+                </LineChart>
             </div>
             <div>
-            <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Area Chart: <br />
-            <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
-                <AreaChart width={500} height={300} data={data}
+                <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Area Chart: <br />
+                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
+                <AreaChart width={750} height={450} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -103,6 +109,55 @@ const Dashboard = () => {
                     <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
                     <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
                 </AreaChart>
+            </div>
+
+            <div>
+                <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Bar-Chart: <br />
+                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
+                <BarChart
+                    width={750}
+                    height={450}
+                    data={data}
+                    margin={{
+                        top: 20,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                    <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
+                </BarChart>
+
+            </div>
+
+            <div>
+                <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Bar-Chart: <br />
+                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
+                <BarChart
+                    width={750}
+                    height={450}
+                    data={data}
+                    margin={{
+                        top: 5,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="sell" fill="#8884d8" background={{ fill: '#eee' }} />
+                    <Bar dataKey="revenue" fill="#82ca9d" />
+                </BarChart>
             </div>
 
         </div>
