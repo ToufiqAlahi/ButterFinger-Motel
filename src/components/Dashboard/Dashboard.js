@@ -57,13 +57,13 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className=' md:flex md:mx-10 md:justify-around mt-44 flex-wrap'>
-            <div className=' mb-44'>
+        <div className=' md:grid md:grid-cols-2 md:gap-36 md:mx-56 md:justify-around mt-44 '>
+            <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Simple Line Chart: <br />
                     <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
                 <LineChart
-                    width={750}
-                    height={450}
+                    width={500}
+                    height={300}
                     data={data}
                     margin={{
                         top: 5,
@@ -87,10 +87,10 @@ const Dashboard = () => {
                     <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
                 </LineChart>
             </div>
-            <div>
+            <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Area Chart: <br />
                     <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
-                <AreaChart width={750} height={450} data={data}
+                <AreaChart width={500} height={300} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -111,12 +111,12 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
 
-            <div>
+            <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Bar-Chart: <br />
                     <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
                 <BarChart
-                    width={750}
-                    height={450}
+                    width={500}
+                    height={300}
                     data={data}
                     margin={{
                         top: 20,
@@ -136,12 +136,12 @@ const Dashboard = () => {
 
             </div>
 
-            <div>
+            <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Bar-Chart: <br />
                     <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
                 <BarChart
-                    width={750}
-                    height={450}
+                    width={500}
+                    height={300}
                     data={data}
                     margin={{
                         top: 5,
