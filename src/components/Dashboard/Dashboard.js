@@ -57,7 +57,7 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className=' md:grid md:grid-cols-2 md:gap-36 md:mx-56 md:justify-around mt-44 '>
+        <div className=' md:grid md:grid-cols-2 md:gap-36s md:mx-56 md:justify-around mt-44 '>
             <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Simple Line Chart: <br />
                     <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>

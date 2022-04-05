@@ -8,21 +8,21 @@ const Reviews = () => {
     return (
 
         <div>
-        <p className='text-fuchsia-800 font-bold text-7xl mt-96 mb-12 '>Customer Review</p>
-        <div className='border-b-4 border-fuchsia-900 w-1/6  mx-auto mb-54 '></div>
-        
-        <div className='md:grid md:grid-cols-3 md:gap-8 mx-6  mt-48'>
-        
-        {
-            reviews.slice(0,3).map(review => <ReviewCard
-                key={review.id}
-                review = {review}>
-                </ReviewCard> )
-        }
-        </div>
+            <p className='text-fuchsia-800 font-bold text-7xl mt-48 mb-12 '>Customer Review</p>
+            <div className='border-b-4 border-fuchsia-900 w-1/6  mx-auto mb-54 '></div>
+
+            <div className='md:grid md:grid-cols-3 md:gap-8 mx-6  mt-48'>
+
+                {
+                    reviews.slice(0, 3).map(review => <ReviewCard
+                        key={review.id}
+                        review={review}>
+                    </ReviewCard>)
+                }
+            </div>
         </div>
 
-        
+
     )
 };
 

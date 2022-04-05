@@ -6,8 +6,9 @@ const Blogs = () => {
 
 
         <div>
-            <p className='text-7xl font-bold text-fuchsia-700 py-20'> QnA Section </p>
-            <div className="w-full md:w-3/5 mx-auto p-8">
+            <p className='text-fuchsia-800 font-bold text-7xl mb-8 '> QnA Section <span className='text-lg'> Click the "plus" icon below</span> </p>
+            <div className='border-b-4 border-fuchsia-900 w-5/6 mb-14  mx-auto mb-54 '></div>
+            <div className="w-full md:w-4/5 mx-auto p-8">
                 <div className="tab w-full overflow-hidden border-t">
                     <input className="absolute opacity-0 " id="tab-multi-one" type="checkbox" name="tabs" />
                     <label className="font-bold text-5xl text-fuchsia-800  block p-5 leading-normal cursor-pointer" htmlFor="tab-multi-one">What is Context API ?</label>
@@ -24,7 +25,7 @@ const Blogs = () => {
                 </div>
                 <div className="tab w-full overflow-hidden border-t">
                     <input className="absolute opacity-0" id="tab-multi-three" type="checkbox" name="tabs" />
-                    <label className="  text-5xl text-fuchsia-800 font-bold block p-5 leading-normal cursor-pointer" htmlFor="tab-multi-three">Difference among Inline, Block, Inline block  </label>
+                    <label className="  text-5xl text-fuchsia-800 font-bold block p-5 leading-normal cursor-pointer" htmlFor="tab-multi-three">Difference among Inline, Block, Inline-block  </label>
                     <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
                         <p className="p-5 text-xl font-bold">Inline, Block, and Inline-block are CSS display properties. <br /><br />
 
