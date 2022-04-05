@@ -15,12 +15,12 @@ const NotFound = () => {
 
                             <div className="contant_box_404">
                                 <h3 className="h2 text-5xl font-bold">
-                                    Look like you're lost
+                                    Looks like you're lost...
                                 </h3>
 
-                                <p className="h2 text-5xl font-bold">The page you are looking for not available!</p>
+                                <p className="h2 text-5xl font-bold my-10">The page you are looking for is not available!</p>
 
-                                <a className="mt-10 text-2xl font-bold link_404 text-bold p-4 rounded-2xl" href="https://butterfinger-motel-by-toufiq.netlify.app/" >Go to Home</a>
+                                <a className="mt-10 text-5xl font-bold link_404 text-bold p-8 rounded-2xl" href="https://butterfinger-motel-by-toufiq.netlify.app/" >Go to Home</a>
                             </div>
                         </div>
                     </div>

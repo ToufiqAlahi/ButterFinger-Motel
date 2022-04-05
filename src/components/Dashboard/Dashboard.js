@@ -52,8 +52,6 @@ const Dashboard = () => {
     ]
     return (
         <div className=' md:flex md:mx-10 md:justify-around mt-44'>
-            
-            
             <div>
             <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Simple Line Chart: <br />
             <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
@@ -82,11 +80,7 @@ const Dashboard = () => {
                 <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
                 <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
             </LineChart>
-
-            
             </div>
-
-
             <div>
             <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Area Chart: <br />
             <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
@@ -109,7 +103,6 @@ const Dashboard = () => {
                     <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
                     <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fillOpacity={1} fill="url(#colorPv)" />
                 </AreaChart>
-
             </div>
 
         </div>

@@ -15,14 +15,12 @@ function App() {
             <Navbar></Navbar>
 
             <Routes>
-
                 <Route path="/" element={<Home></Home>}></Route>
                 <Route path="/review" element={<ReviewTab></ReviewTab>}></Route>
                 <Route path="/dashboard" element={<Dashboard></Dashboard>}> </Route>
                 <Route path="/blog" element={<Blogs></Blogs>}></Route>
                 <Route path="/about" element={<About></About>}></Route>
                 <Route path="*" element={<NotFound></NotFound>}></Route>
-
             </Routes>
             
             
