@@ -4,11 +4,11 @@ import "./Blogs.css";
 const Blogs = () => {
   return (
     <div className="min-h-screen">
-      <p className="text-fuchsia-800 font-bold text-4xl md:mt-24 mb-8 text-center">
+      <p className="text-slate-800 font-bold text-4xl md:mt-24 mb-8 text-center">
         QnA Section
         <span className="text-lg"> Click the "plus" icon below</span>
       </p>
-      <div className="border-b-4 border-fuchsia-900 w-5/6 mb-14  mx-auto mb-54 "></div>
+      <div className="border-b-4 border-slate-900 w-5/6 mb-14  mx-auto mb-54 "></div>
       <div className="w-full md:w-4/5 mx-auto p-8">
         <div className="tab w-full overflow-hidden border-t">
           <input
@@ -18,7 +18,7 @@ const Blogs = () => {
             name="tabs"
           />
           <label
-            className="font-bold text-2xl text-fuchsia-800  block p-5 leading-normal cursor-pointer"
+            className="font-bold text-2xl text-slate-800  block p-5 leading-normal cursor-pointer"
             htmlFor="tab-multi-one"
           >
             What is Context API ?
@@ -44,7 +44,7 @@ const Blogs = () => {
             name="tabs"
           />
           <label
-            className="  text-fuchsia-800  text-2xl font-bold block p-5 leading-normal cursor-pointer"
+            className="  text-slate-800  text-2xl font-bold block p-5 leading-normal cursor-pointer"
             htmlFor="tab-multi-two"
           >
             What Is Semantic Tag ?
@@ -70,7 +70,7 @@ const Blogs = () => {
             name="tabs"
           />
           <label
-            className="  text-2xl text-fuchsia-800 font-bold block p-5 leading-normal cursor-pointer"
+            className="  text-2xl text-slate-800 font-bold block p-5 leading-normal cursor-pointer"
             htmlFor="tab-multi-three"
           >
             Difference among Inline, Block, Inline-block

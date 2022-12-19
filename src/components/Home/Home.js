@@ -10,7 +10,7 @@ const Home = () => {
           <h1 className="text-center  text-2xl font-bold md:text-5xl md:text-left">
             In The Heart of Sylhet !
           </h1>
-          <h1 className="text-center text-2xl font-bold  md:text-5xl md:text-left text-fuchsia-700 ">
+          <h1 className="text-center text-2xl font-bold  md:text-5xl md:text-left text-slate-700 ">
             ButterFinger Motel !
           </h1>
           <p className="my-4 md:mr-24 font-medium text-sm md:text-xl">
@@ -20,7 +20,7 @@ const Home = () => {
             Waterfalls.
           </p>
 
-          <button className=" bg-fuchsia-800 hover:bg-transparent hover:text-fuchsia-700 hover:font-bold hover:border-2 hover:border-fuchsia-800 text-2xl rounded-3xl text-white px-7 md:w-56 py-3 font-bold md:mt-8 ">
+          <button className=" bg-slate-800 hover:bg-transparent hover:text-slate-700 hover:font-bold hover:border-2 hover:border-slate-800 text-2xl rounded-3xl text-white px-7 md:w-56 py-3 font-bold md:mt-8 ">
             Book Now !
           </button>
         </div>
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
       <Reviews> </Reviews>
 
-      <button className="mx-auto bg-fuchsia-800 hover:bg-transparent hover:text-fuchsia-700 hover:font-bold hover:border-2 hover:border-fuchsia-800 text-2xl rounded-3xl text-white px-7 md:w-56 py-3 font-bold md:mt-8 ">
+      <button className="mx-auto bg-slate-800 hover:bg-transparent hover:text-slate-700 hover:font-bold hover:border-2 hover:border-slate-800 text-2xl rounded-3xl text-white px-7 md:w-56 py-3 font-bold md:mt-8 ">
         <Link to="review">See All </Link>
       </button>
     </div>
