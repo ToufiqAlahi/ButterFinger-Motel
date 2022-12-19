@@ -57,10 +57,10 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className=' md:grid md:grid-cols-2 md:gap-36s md:mx-56 md:justify-around mt-44 '>
+        <div className=' md:grid md:grid-cols-2 md:gap-36 md:mx-56 md:justify-around mt-44 '>
             <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Simple Line Chart: <br />
-                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
+                    <span className='text-2xl text-fuchsia-800'> Investment vs Revenue vs sell</span> </p>
                 <LineChart
                     width={500}
                     height={300}
@@ -89,7 +89,7 @@ const Dashboard = () => {
             </div>
             <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Area Chart: <br />
-                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
+                    <span className=' text-2xl text-fuchsia-800'> Investment vs Revenue</span> </p>
                 <AreaChart width={500} height={300} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
@@ -113,7 +113,7 @@ const Dashboard = () => {
 
             <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Bar-Chart: <br />
-                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
+                    <span className=' text-2xl text-fuchsia-800'> Investment vs Revenue</span> </p>
                 <BarChart
                     width={500}
                     height={300}
@@ -138,7 +138,7 @@ const Dashboard = () => {
 
             <div className=' '>
                 <p className='text-fuchsia-700 font-bold text-4xl mb-5'> Bar-Chart: <br />
-                    <span className=' text-3xl text-fuchsia-800'> Investment vs Revenue</span> </p>
+                    <span className=' text-2xl text-fuchsia-800'> Investment vs Revenue</span> </p>
                 <BarChart
                     width={500}
                     height={300}

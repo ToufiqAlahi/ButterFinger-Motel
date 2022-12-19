@@ -11,7 +11,7 @@ import ReviewTab from './components/ReviewTab/ReviewTab';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App mx-12">
             <Navbar></Navbar>
             <Routes>
                 <Route path="/" element={<Home></Home>}></Route>

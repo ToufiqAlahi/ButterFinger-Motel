@@ -10,16 +10,13 @@ const Navbar = () => {
         { id: 5, link: '/about', name: 'ABOUT' },
     ];
     return (
-        <div className='mt-5 border-fuchsia-200 mb-32 '>
-            <ul className='py-8 md:flex lg:flex justify-center' >
-                {
-                    routes.map(route => <Links
-                        key={route.id}
-                        route={route}
-                    ></Links>
-                    )}
-            </ul>
-        </div>
+      <div className=" flex flex-row justify-center mx-auto max-w-[50vw] text-center md:max-w-screen-xl mt-3 ">
+        <ul className="flex justify-center gap-2 md:gap-8 flex-col md:flex-row">
+          {routes.map((route) => (
+            <Links key={route.id} route={route}></Links>
+          ))}
+        </ul>
+      </div>
     );
 };
 

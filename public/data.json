@@ -5,7 +5,7 @@
         "rating": 5.00,
         "date": "06/03/2022",
         "review_text": "Amazing food. PERIOD.  Service is always perfect, food is always on point, and the staff is very friendly and accommodating.",
-        "user_img": " https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "user_img": " https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 2,
@@ -13,23 +13,23 @@
         "rating": 4.70,
         "date": "29/04/2022",
         "review_text": " I stayed here for three nights in November 2021. What an amazing hotel. I had a very great time. The gym was not that great! ",
-        "user_img": " https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "user_img": " https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 3,
         "name": "Lucas",
         "rating": 4.50,
         "date": "03/11/2022",
-        "review_text": " Clean, modern, and had a fantastic view over Sylhet. The rooms were big for Sylhet standards. I can't complain about this hotel. The bar was fantastic.",
-        "user_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80 "
+        "review_text": " Clean, modern, and had a fantastic view over Sylhet. The rooms were big for Sylhet standards. I can't complain. The bar was fantastic.",
+        "user_img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95 "
     },
     {
         "id": 4,
         "name": "Erine",
         "rating": 3.8,
         "date": "09/08/2021",
-        "review_text": " Wonderful place to stay. I don’t normally stay in hostels but this was perfect - the beds are comfortable. The gym was not that great! ",
-        "user_img": " https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "review_text": "Excellent!!! Wonderful place to stay. I don’t normally stay in hostels but this was perfect - the beds are comfortable. The gym was not that great! ",
+        "user_img": " https://images.unsplash.com/photo-1542596768-5d1d21f1cf98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "rating": 5,
         "date": "05/11/2021",
         "review_text": "I had a great time meeting everyone and socializing yet when I wanted to, I could get a quiet night’s sleep. I had a very great time. The food was  great! ",
-        "user_img": " https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "user_img": " https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "rating": 4.8,
         "date": "08/08/2021",
         "review_text": "The rooms are quiet despite the fact that if you want to, you can spend time outside with other travelers and the staff - who, by the way, were exceptional. ",
-        "user_img": " https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "user_img": " https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 7,
@@ -53,15 +53,15 @@
         "rating": 4.5,
         "date": "28/09/2021",
         "review_text": "All of the facilities were clean and modern. The restaurant located inside the hotel was delicious. I dined here for breakfast and dinner.",
-        "user_img": " https://images.unsplash.com/photo-1525186492356-0fe09a5831df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "user_img": " https://images.unsplash.com/photo-1525186492356-0fe09a5831df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 8,
         "name": "Aditi",
         "rating": 4.5,
         "date": "03/03/2021",
-        "review_text": "I was greeted with such kindness and this continued throughout my stay. I booked the king room and my room was situated on the 14th floor.",
-        "user_img": " https://images.unsplash.com/photo-1557555187-23d685287bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+        "review_text": "I was greeted with such kindness which continued throughout my stay. I booked the king room and it was situated on the 14th floor.",
+        "user_img": " https://images.unsplash.com/photo-1557555187-23d685287bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95"
     },
     {
         "id": 9,
@@ -69,6 +69,6 @@
         "rating": 3.7,
         "date": "24/08/2021",
         "review_text": "  Always looking forward to this place with my friends, the fried vanilla ice cream is exceptionally good!  The room was fantastic.  ",
-        "user_img": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80 "
+        "user_img": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=95 "
     }
 ]

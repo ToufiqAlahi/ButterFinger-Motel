@@ -10,10 +10,10 @@ const ReviewCard = (props) => {
         <div className=' my-24 text-fuchsia-900'>
             <div className='shadow-xl shadow-neutral-300 border-4 rounded-3xl p-5 flex flex-col  '>
                 <img className='w-36 h-36 rounded-full self-center -mt-24 border-8 border-neutral-300 hover:w-48 hover:h-48 ' src={user_img} alt="" />
-                <p className='font-bold text-4xl  mb-8 border-fuchsia-600 py-4 rounded-3xl text-fuchsia-700'>{name}</p>
-                <p className='font-bold text-4xl font-mono '>{rating}/5 </p>
+                <p className='font-bold text-2xl  mb-8 border-fuchsia-600 py-4 rounded-3xl text-fuchsia-700'>{name}</p>
+                <p className='font-bold text-2xl font-mono '>{rating}/5 </p>
 
-                <Rating className="text-3xl mt-5"
+                <Rating className="text-2xl mt-5"
                     initialRating={rating}
                     emptySymbol={<FontAwesomeIcon icon={faStar} />}
                     fullSymbol={<FontAwesomeIcon style={{ color: 'gold' }} icon={faStar} />}

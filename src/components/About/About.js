@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
-    return (
-        <div>
-            <p className='font-bold text-7xl mt-32 text-fuchsia-800'>About us! </p>
-        </div>
-    );
+  return (
+    <div>
+      <p className="text-center font-bold text-4xl mt-32 text-fuchsia-800">About us! </p>
+    </div>
+  );
 };
 
 export default About;
