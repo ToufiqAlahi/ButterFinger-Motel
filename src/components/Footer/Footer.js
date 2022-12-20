@@ -2,21 +2,23 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-center text-white bg-[#f1f1f1]  mt-32 ">
-      <div className="container pt-9">
-        <div className="flex justify-center mb-9 ">
+    <footer className="text-center text-white bg-[#f1f1f1] mt-32">
+      <div className="pt-9">
+        <div className="flex justify-center mx-auto mb-9 gap-5">
           <a
             rel="noreferrer"
             target="_blank"
             href="https://www.facebook.com/Toufiq.ThePandaScheme"
-            className="mr-5 md:mr-10 text-gray-800"
+            className="border-4 border-black rounded-full text-black
+            leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-1
+            "
           >
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="facebook-f"
-              className="svg-inline--fa fa-facebook-f w-2.5"
+              class="w-3 h-full mx-auto"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 320 512"
@@ -31,14 +33,15 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
             href="https://twitter.com/TOUFIQALAHI"
-            className="mr-5 md:mr-10 text-gray-800"
+            className="border-4 border-black rounded-full text-black
+            leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-1"
           >
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="twitter"
-              className="svg-inline--fa fa-twitter w-4"
+              class="w-[20px] h-full mx-auto"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -53,14 +56,15 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
             href="mailto:toufiq.sec.cse10@gmail.com"
-            className="mr-5 md:mr-10 text-gray-800"
+            className=" border-4 border-black rounded-full text-black
+            leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-1"
           >
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="google"
-              className="svg-inline--fa fa-google w-3.5"
+              class="w-4 h-full mx-auto"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 488 512"
@@ -75,14 +79,15 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
             href="https://www.instagram.com/tigermate_"
-            className="mr-5 md:mr-10 text-gray-800"
+            className=" border-4 border-black rounded-full text-black
+            leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-1"
           >
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="instagram"
-              className="svg-inline--fa fa-instagram w-3.5"
+              class="w-5 h-full mx-auto"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -97,14 +102,15 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
             href="https://www.linkedin.com/in/toufiq-alahi"
-            className="mr-5 md:mr-10 text-gray-800"
+            className=" border-4 border-black rounded-full text-black
+            leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-1"
           >
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="linkedin-in"
-              className="svg-inline--fa fa-linkedin-in w-3.5"
+              class="w-[20px] h-full mx-auto"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -119,14 +125,15 @@ const Footer = () => {
             rel="noreferrer"
             target="_blank"
             href="https://github.com/ToufiqAlahi"
-            className="text-gray-800"
+            className="border-4 border-black rounded-full text-black
+            leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-12 h-12 m-1"
           >
             <svg
               aria-hidden="true"
               focusable="false"
               data-prefix="fab"
               data-icon="github"
-              className="svg-inline--fa fa-github w-4"
+              class="w-6 h-full mx-auto"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -140,15 +147,22 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center text-gray-700 p-4 bg-[#00000033]">
+      <div className="text-center text-gray-700 p-4 flex justify-center items-center pb-10 bg-[#00000033]">
         © 2021 Copyright:
         <a
-          className="text-gray-800 "
           rel="noreferrer"
           target="_blank"
           href="https://toufiq-alahi.netlify.app"
         >
           <b className="gradient-text"> Toufiq Alahi</b>, Sylhet, Bangladesh
+        </a>
+        <a
+          className="text-slate-700 ml-[25vmax]"
+          rel="noreferrer"
+          href="https://github.com/ToufiqAlahi/ButterFinger-Motel"
+          target="_blank"
+        >
+          <b className="gradient-text">Project Link🡭</b>
         </a>
       </div>
     </footer>
