@@ -4,7 +4,7 @@ import "./Blogs.css";
 const Blogs = () => {
   return (
     <div className="min-h-screen">
-      <p className="text-slate-800 font-bold text-4xl md:mt-24 mb-8 text-center">
+      <p className="gradient-text  font-bold text-4xl md:mt-24 mb-8 text-center">
         QnA Section
         <span className="text-lg"> Click the "plus" icon below</span>
       </p>

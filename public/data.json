@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Upoma",
+        "name": "Upoma Maeve",
         "rating": 5.00,
         "date": "06/03/2022",
         "review_text": "Amazing food. PERIOD.  Service is always perfect, food is always on point, and the staff is very friendly and accommodating.",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "Nourine",
+        "name": "Nourine Aurelia",
         "rating": 4.70,
         "date": "29/04/2022",
         "review_text": " I stayed here for three nights in November 2021. What an amazing hotel. I had a very great time. The gym was not that great! ",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "name": "Lucas",
+        "name": "Lucas Vázquez",
         "rating": 4.50,
         "date": "03/11/2022",
         "review_text": " Clean, modern, and had a fantastic view over Sylhet. The rooms were big for Sylhet standards. I can't complain. The bar was fantastic.",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "Erine",
+        "name": "Erine Ophelia",
         "rating": 3.8,
         "date": "09/08/2021",
         "review_text": "Excellent!!! Wonderful place to stay. I don’t normally stay in hostels but this was perfect - the beds are comfortable. The gym was not that great! ",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "Toufiq",
+        "name": "Toufiq Alahi",
         "rating": 5,
         "date": "05/11/2021",
         "review_text": "I had a great time meeting everyone and socializing yet when I wanted to, I could get a quiet night’s sleep. I had a very great time. The food was  great! ",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "name": "Alahi",
+        "name": "Alahi Nipun",
         "rating": 4.8,
         "date": "08/08/2021",
         "review_text": "The rooms are quiet despite the fact that if you want to, you can spend time outside with other travelers and the staff - who, by the way, were exceptional. ",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "name": "Farzana",
+        "name": "Farzana Fariha",
         "rating": 4.5,
         "date": "28/09/2021",
         "review_text": "All of the facilities were clean and modern. The restaurant located inside the hotel was delicious. I dined here for breakfast and dinner.",
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "name": "Aditi",
+        "name": "Aditi Matilda",
         "rating": 4.5,
         "date": "03/03/2021",
         "review_text": "I was greeted with such kindness which continued throughout my stay. I booked the king room and it was situated on the 14th floor.",
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "name": "Nipun",
+        "name": "Wojciech Szczęsny",
         "rating": 3.7,
         "date": "24/08/2021",
         "review_text": "  Always looking forward to this place with my friends, the fried vanilla ice cream is exceptionally good!  The room was fantastic.  ",

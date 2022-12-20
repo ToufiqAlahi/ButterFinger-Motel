@@ -1,0 +1,31 @@
+.gradient-border {
+  border: 5px solid transparent;
+
+  background: linear-gradient(#fff, #fff) padding-box,
+    conic-gradient(
+        #ca4246 16.666%,
+        #e16541 16.666%,
+        #e16541 33.333%,
+        #f18f43 33.333%,
+        #f18f43 50%,
+        #16a34a 50%,
+        #16a34a 66.666%,
+        #476098 66.666%,
+        #476098 83.333%,
+        #a7489b 83.333%
+      )
+      border-box;
+      animation: gradient-border-animation 3s ease-in-out infinite;
+}
+
+@keyframes gradient-border-animation {
+  0% {
+    background-size: 100%;
+  }
+  /* 80% {
+    background-size: 650%;
+  } */
+  100% {
+    background-size: 650%;
+  }
+}

@@ -54,8 +54,8 @@ const Dashboard = () => {
   ];
   return (
     <div className=" md:grid md:grid-cols-2 md:gap-36 md:mx-56 md:justify-around mt-44 ">
-      <div className=" ">
-        <p className="text-slate-700 font-bold text-4xl mb-5">
+      <div className="max-w-[100vw] ">
+        <p className="text-slate-700 font-bold text-4xl mb-5 gradient-text">
           {" "}
           Simple Line Chart: <br />
           <span className="text-2xl text-slate-800">
@@ -89,8 +89,8 @@ const Dashboard = () => {
           <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
         </LineChart>
       </div>
-      <div className=" ">
-        <p className="text-slate-700 font-bold text-4xl mb-5">
+      <div className=" max-w-[100vw]">
+        <p className="text-slate-700 font-bold text-4xl mb-5 gradient-text">
           {" "}
           Area Chart: <br />
           <span className=" text-2xl text-slate-800">
@@ -135,11 +135,11 @@ const Dashboard = () => {
         </AreaChart>
       </div>
 
-      <div className=" ">
+      <div className="max-w-[100vw] ">
         <p className="text-slate-700 font-bold text-4xl mb-5">
           {" "}
           Bar-Chart: <br />
-          <span className=" text-2xl text-slate-800">
+          <span className=" text-2xl text-slate-800 gradient-text">
             {" "}
             Investment vs Revenue
           </span>{" "}
@@ -165,8 +165,8 @@ const Dashboard = () => {
         </BarChart>
       </div>
 
-      <div className=" ">
-        <p className="text-slate-700 font-bold text-4xl mb-5">
+      <div className="max-w-[100vw] ">
+        <p className="text-slate-700 font-bold text-4xl mb-5 gradient-text">
           {" "}
           Bar-Chart: <br />
           <span className=" text-2xl text-slate-800">

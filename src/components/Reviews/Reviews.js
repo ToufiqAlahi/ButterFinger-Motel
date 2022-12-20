@@ -7,8 +7,8 @@ const Reviews = () => {
   const [reviews, setReviews] = UserReviews();
   return (
     <div>
-      <p className="text-slate-800 text-center md:mt-10 font-bold text-4xl  mb-12 ">
-        Customer Review
+      <p className="gradient-text max-h-screen text-center md:mt-10 font-bold text-4xl  mb-5 ">
+        Customer Reviews
       </p>
       <div className="border-b-4 border-slate-900 w-1/6  mx-auto mb-54 "></div>
 
