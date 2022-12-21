@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 import {
   LineChart,
   Line,
@@ -14,6 +15,27 @@ import {
 import { BarChart, Bar, Cell } from "recharts";
 
 const Dashboard = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  const handleResize = () => {
+    if (window.innerWidth < 720) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  });
+
+  console.log(
+    "Screen size here:",
+    window.innerWidth,
+    "Smartphone == ",
+    isMobile
+  );
+
   const data = [
     {
       month: "Mar",
@@ -53,19 +75,17 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className=" md:grid md:grid-cols-2 md:gap-36 md:mx-56 md:justify-around mt-44 ">
-      <div className="max-w-[100vw] ">
-        <p className="text-slate-700 font-bold text-4xl mb-5 gradient-text">
-          {" "}
+    <div className=" flex flex-col md:grid md:grid-cols-2 md:gap-36 md:mx-56 justify-center md:justify-around md:mt-28 mt-20 mx-auto text-center max-w-[90vw] ">
+      <div className="mx-auto text-center  mb-20 md:mb-0">
+        <p className="text-slate-700 font-bold text-2xl md:text-4xl mb-5 gradient-text">
           Simple Line Chart: <br />
-          <span className="text-2xl text-slate-800">
-            {" "}
+          <span className="text-lg md:text-2xl text-slate-800">
             Investment vs Revenue vs sell
-          </span>{" "}
+          </span>
         </p>
         <LineChart
-          width={500}
-          height={300}
+          width={!isMobile ? 500 : 300}
+          height={!isMobile ? 300 : 200}
           data={data}
           margin={{
             top: 5,
@@ -86,23 +106,21 @@ const Dashboard = () => {
             activeDot={{ r: 8 }}
           />
           <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
-          <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="sell" stroke="#FFA500" />
         </LineChart>
       </div>
-      <div className=" max-w-[100vw]">
-        <p className="text-slate-700 font-bold text-4xl mb-5 gradient-text">
-          {" "}
+      <div className="mx-auto text-center  mb-20 md:mb-0 ">
+        <p className="text-slate-700 font-bold text-2xl md:text-4xl mb-5 gradient-text">
           Area Chart: <br />
           <span className=" text-2xl text-slate-800">
-            {" "}
             Investment vs Revenue
-          </span>{" "}
+          </span>
         </p>
         <AreaChart
-          width={500}
-          height={300}
+          width={!isMobile ? 500 : 300}
+          height={!isMobile ? 300 : 200}
           data={data}
-          margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+          margin={{ top: 10, right: 30, left: 20, bottom: 0 }}
         >
           <defs>
             <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -135,18 +153,16 @@ const Dashboard = () => {
         </AreaChart>
       </div>
 
-      <div className="max-w-[100vw] ">
-        <p className="text-slate-700 font-bold text-4xl mb-5">
-          {" "}
+      <div className="mx-auto text-center  mb-20 md:mb-0  ">
+        <p className="text-slate-700 font-bold text-2xl md:text-4xl mb-5 gradient-text">
           Bar-Chart: <br />
-          <span className=" text-2xl text-slate-800 gradient-text">
-            {" "}
+          <span className=" text-2xl text-slate-800 ">
             Investment vs Revenue
-          </span>{" "}
+          </span>
         </p>
         <BarChart
-          width={500}
-          height={300}
+          width={!isMobile ? 500 : 300}
+          height={!isMobile ? 300 : 200}
           data={data}
           margin={{
             top: 20,
@@ -165,18 +181,16 @@ const Dashboard = () => {
         </BarChart>
       </div>
 
-      <div className="max-w-[100vw] ">
-        <p className="text-slate-700 font-bold text-4xl mb-5 gradient-text">
-          {" "}
+      <div className="mx-auto text-center  mb-20 md:mb-0  ">
+        <p className="text-slate-700 font-bold text-2xl md:text-4xl mb-5 gradient-text">
           Bar-Chart: <br />
           <span className=" text-2xl text-slate-800">
-            {" "}
             Investment vs Revenue
-          </span>{" "}
+          </span>
         </p>
         <BarChart
-          width={500}
-          height={300}
+          width={!isMobile ? 500 : 300}
+          height={!isMobile ? 300 : 200}
           data={data}
           margin={{
             top: 5,
