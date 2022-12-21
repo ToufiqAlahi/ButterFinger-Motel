@@ -9,7 +9,7 @@ const ReviewCard = (props) => {
 
   return (
     <div className=" my-20 md:my-8 text-slate-900 ">
-      <div className="shadow-xl shadow-neutral-300 rounded-3xl p-5 flex flex-col gradient-border ">
+      <div className="shadow-xl shadow-neutral-300 rounded-3xl p-5 text-center flex flex-col gradient-border ">
         <img
           className="w-24 h-24 rounded-full self-center -mt-16 border-8 border-neutral-300 hover:w-36 hover:h-36 hover:-mt-24 mb-5 "
           src={user_img}

@@ -4,11 +4,11 @@ import "./Blogs.css";
 const Blogs = () => {
   return (
     <div className="min-h-screen">
-      <p className="gradient-text  font-bold text-4xl md:mt-24 mb-8 text-center">
+      <p className="gradient-text font-bold md:text-4xl text-2xl mt-12 md:mt-24 md:mb-8 text-center">
         QnA Section
         <span className="text-lg"> Click the "plus" icon below</span>
       </p>
-      <div className="border-b-4 border-slate-900 w-5/6 mb-14  mx-auto mb-54 "></div>
+      <div className="border-b-4 border-slate-900 w-3/4 md:w-1/6  mx-auto  "></div>
       <div className="w-full md:w-4/5 mx-auto p-8">
         <div className="tab w-full overflow-hidden border-t">
           <input
@@ -18,13 +18,13 @@ const Blogs = () => {
             name="tabs"
           />
           <label
-            className="font-bold text-2xl text-slate-800  block p-5 leading-normal cursor-pointer"
+            className="font-bold text-xl text-slate-800  block p-5 leading-normal cursor-pointer"
             htmlFor="tab-multi-one"
           >
             What is Context API ?
           </label>
           <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-            <p className="p-5 text-xl font-bold">
+            <p className="p-5 text-lg font-bold">
               The Context API truly shines when passing data from the parent
               nodes to child nodes. React applications can efficiently create
               global variables that can be given to other nodes using the
@@ -44,13 +44,13 @@ const Blogs = () => {
             name="tabs"
           />
           <label
-            className="  text-slate-800  text-2xl font-bold block p-5 leading-normal cursor-pointer"
+            className="  text-slate-800  text-xl font-bold block p-5 leading-normal cursor-pointer"
             htmlFor="tab-multi-two"
           >
             What Is Semantic Tag ?
           </label>
           <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-            <p className="p-5 text-xl font-bold">
+            <p className="p-5 text-lg font-bold">
               The main feature of semantic tags is to clearly articulate their
               meaning to both developers and browsers. These tags uniquely
               define their purpose. Such as:
@@ -70,13 +70,13 @@ const Blogs = () => {
             name="tabs"
           />
           <label
-            className="  text-2xl text-slate-800 font-bold block p-5 leading-normal cursor-pointer"
+            className="  text-xl text-slate-800 font-bold block p-5 leading-normal cursor-pointer"
             htmlFor="tab-multi-three"
           >
             Difference among Inline, Block, Inline-block
           </label>
           <div className="tab-content overflow-hidden border-l-2 bg-gray-100 border-indigo-500 leading-normal">
-            <p className="p-5 text-xl font-bold">
+            <p className="p-5 text-lg font-bold">
               Inline, Block, and Inline-block are CSS display properties. <br />
               <br />
               1. Displaying items inline indicates that those items will show in
